@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+    .form-booking-container{
+        width: 60vw;
+    }
+    .main-booking{
+        height: 117vh;
+    }
+    .reservation-container{
+        flex-direction: column;
+    }
+    .position-pattern{
+     display: none;
+    }
+    .bar-container{
+    display: none;
+    }
+    .text-container-reservation{
+        position: relative;
+        top: 30%;
+        width: 89.7%;
+        display: grid;
+        place-items: center;
+    }
+    .reservation-text-container{
+        text-align: center;
+        font-size: clamp(1.3vw, 1.125em, 2.3vw);
+        width: 83.16%;
+    }
+    .reservation-title-container{
+        font-size: clamp(3vw, 4em, 2.2vw);
+    }
+}

@@ -1,0 +1,42 @@
+@import "_main-booking.scss";
+@import "_tablet-booking.scss";
+@import "_mobile-booking.scss";
+@import "_footer.scss";
+@import "_main.scss";
+@import "_hero.scss";
+@import "_element.scss";
+@import "_tablet.scss";
+@import "_mobile.scss";
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "spartan";
+    color: white;
+    h1{
+        margin: 0;
+    }
+    p{
+        margin: 0;
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    h4{
+        margin: 0;
+    }
+}
+
+@font-face {
+    font-family: "spartan";
+    src: url(fonts/Spartan-Regular.ttf), 
+    url(fonts/Spartan-Bold.ttf),
+    url(fonts/Spartan-Light.ttf),
+    url(fonts/Spartan-SemiBold.ttf);
+}

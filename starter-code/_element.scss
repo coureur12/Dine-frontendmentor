@@ -1,0 +1,139 @@
+.button{
+    border: solid white 1px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    padding: 24px 54px 24px 56px;
+    cursor: pointer;
+    font-size: 0.875em;
+    line-height: 16px;
+    letter-spacing: 2px;
+    font-family: 'spartan';
+    white-space: nowrap;;
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
+.btn-modifier{
+    background-color: black;
+    margin-bottom: 76px;
+    &:hover{
+        background-color: transparent;
+        border: solid black 1px;
+    }
+}
+.bg-element{
+    width: 71px;
+    height: 7px;
+    background-image: url(images/patterns/pattern-divide.svg);
+}
+.lines-pattern{
+    background-image: url(images/patterns/pattern-lines.svg);
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+    height: 76px;
+    background-repeat: repeat;
+}
+.lines-pattern-modifier{
+    position: relative;
+    top: -38px;
+    left: -9%;
+}
+.bg-divider{
+    background: #FFFFFF;
+    width: 540px;
+    height: 1px;
+    opacity: 0.3;
+}
+.bg-line{
+    width: 32px;
+    height: 1px;
+    background: #9E7F66;
+    position: relative;
+    top: 20px;
+}
+.line-modifer{
+    width: 5vw;
+    max-width: 95px;
+    position: relative;
+    left: 100%;
+}
+#family-button{
+    opacity: 1;
+}
+.btn-list{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size:clamp(1vw,0.875em,2vw);
+    font-family: 'spartan';
+    opacity: 0.6;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #4C4C4C;
+    &:active{
+        opacity: 1;
+    }
+    &:hover{
+        opacity: 1;
+    }
+}
+li{
+    display: flex;
+    align-items: center;
+}
+#line1{
+    opacity: 1;
+    top: 68.8%;
+}
+#line2{
+    opacity: 0;
+    top: 76.7%;
+}
+#line3{
+    opacity: 0;
+    top: 84%;
+}
+.input-booking{
+    width: 100%;
+    input{
+    background-color: transparent;
+    border: none transparent;
+    border-bottom: 1px solid #8E8E8E;
+    padding-left: 15px;
+    padding-bottom: 17px;
+    font-family: 'spartan';
+    }
+}
+.text-area{
+    color:#B54949;
+    font-size: 0.625em;
+    padding-top: 2px;
+    display: none;
+}
+#email-area{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+select{
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 0.5px solid #8E8E8E;
+    padding: 8px;
+    background-color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("images/icons/icon-arrow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    font-family: 'spartan';
+    font-size: 18px;
+    color: #111111;
+}
+
